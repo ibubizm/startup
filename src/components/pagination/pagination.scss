@@ -1,0 +1,44 @@
+@import '../../styles/vars.scss';
+
+.pagination {
+  display: flex;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  align-items: center;
+  list-style: none;
+  color: #808080;
+  li {
+    padding: 2px 6px;
+    border-radius: 3px;
+  }
+  a {
+    cursor: pointer;
+  }
+}
+
+.pagination__link {
+  &--active {
+    background: $blue;
+    color: #fff;
+  }
+}
+
+.previous {
+  margin-right: 26px;
+}
+
+.next {
+  margin-left: 26px;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  div {
+    color: #808080;
+  }
+}

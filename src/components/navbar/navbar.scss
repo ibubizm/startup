@@ -1,0 +1,17 @@
+@import '../../styles/vars.scss';
+
+.nav {
+  display: flex;
+  align-items: center;
+  background: $blue;
+  height: 72px;
+}
+
+.nav__content {
+  display: flex;
+  margin: 16px 0 16px 41px;
+}
+
+.nav__logo {
+  margin-right: 22px;
+}

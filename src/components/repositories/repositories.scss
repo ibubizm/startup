@@ -1,0 +1,29 @@
+.empty {
+  display: grid;
+  height: calc(100vh - 72px - 28px);
+  grid-template-areas:
+    '. a a .'
+    '. a a .';
+
+  .empty__content {
+    display: grid;
+    grid-area: a;
+    align-self: center;
+    justify-self: center;
+    line-height: 30.8px;
+    img {
+      margin-bottom: 48px;
+      margin: 0 auto;
+    }
+    span {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 22px;
+      color: #808080;
+      margin-top: 48px;
+      text-align: center;
+      max-width: 300px;
+    }
+  }
+}
