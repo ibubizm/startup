@@ -3,3 +3,10 @@
   grid-template-columns: 1fr 2fr;
   padding: 28px 57px;
 }
+
+@media (max-width: 1000px) {
+  .main {
+    align-items: center;
+    grid-template-columns: 1fr;
+  }
+}

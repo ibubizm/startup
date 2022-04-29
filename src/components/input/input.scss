@@ -15,3 +15,9 @@
   font-size: 14px;
   line-height: 17px;
 }
+
+@media (max-width: 1000px) {
+  .input {
+    width: auto;
+  }
+}

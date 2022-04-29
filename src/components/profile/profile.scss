@@ -43,3 +43,10 @@
     line-height: 150%;
   }
 }
+
+@media (max-width: 1000px) {
+  .profile {
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+}
