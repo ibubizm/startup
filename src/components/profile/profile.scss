@@ -32,6 +32,9 @@
   div {
     display: flex;
     align-items: center;
+  }
+
+  div:first-child {
     margin-right: 20px;
   }
   span {
@@ -44,9 +47,15 @@
   }
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 1400px) {
   .profile {
     margin: 0 auto;
     margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .profile {
+    margin: 0 auto;
   }
 }
