@@ -3,6 +3,8 @@ import ReactPaginate from 'react-paginate'
 import { Context } from '../../context/conntext'
 import { Card } from '../card/card'
 import './pagination.scss'
+import back from './back.svg'
+import next from './next.svg'
 
 const Items = ({ currentItems }) => {
   return (
@@ -49,11 +51,11 @@ export function PaginatedItems({ itemsPerPage }) {
         </div>
         <ReactPaginate
           breakLabel="..."
-          nextLabel=">"
+          nextLabel={<img src={next}></img>}
           onPageChange={handlePageClick}
           pageRangeDisplayed={3}
           pageCount={pageCount}
-          previousLabel="<"
+          previousLabel={<img src={back}></img>}
           renderOnZeroPageCount={null}
           containerClassName={'pagination'}
           previousLinkClassName={'pagination__link'}

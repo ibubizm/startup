@@ -18,6 +18,13 @@
 
 @media (max-width: 1000px) {
   .input {
-    width: auto;
+    width: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .input {
+    width: 240px;
+    font-size: 13px;
   }
 }

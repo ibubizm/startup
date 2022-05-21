@@ -48,3 +48,14 @@
     justify-content: center;
   }
 }
+
+@media (max-width: 480px) {
+  .bottom {
+    display: block;
+  }
+  .pagination {
+    font-size: 20px;
+    padding-left: 0;
+    justify-content: center;
+  }
+}
